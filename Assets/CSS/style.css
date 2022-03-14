@@ -107,7 +107,7 @@
     
     color: display: flex;
     flex-direction: column;
-    background-color: thistle;white;
+    background-color: thistle;
     align-items: center;
     padding: 20px;
     
@@ -159,3 +159,48 @@
     padding: 10px;
 }
 
+@media only screen and (max-width:530px){
+   
+   .navbar ul{
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+    #pic{
+        flex-direction: column;
+        align-items: center;
+    }
+    #pic img{
+        width: 575px;
+        height: 400px;
+    }
+    #intro{
+        margin-left: auto;
+        padding: 40px;
+        display:flex;
+        flex-direction:bottom;
+        text-align: justify;
+        padding: 10px;
+    }
+    
+}
+@media only screen and (max-width:800px){
+   
+   
+    #pic{
+        flex-direction: column;
+        align-items: center;
+    }
+    #pic img{
+        width: 475px;
+        height: 300px;
+    }
+    #intro{
+        margin-left: auto;
+        padding: 10px;
+        display:flex;
+        flex-direction:bottom;
+        text-align: justify;
+        flex-wrap: wrap;
+    }
+    
+}
